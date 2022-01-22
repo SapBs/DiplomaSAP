@@ -593,7 +593,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url("/images/light.png");
+    background-image: url("/images/slider/light.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center -65px;
@@ -614,7 +614,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url("/images/glow.png");
+    background-image: url("/images/slider/glow.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
