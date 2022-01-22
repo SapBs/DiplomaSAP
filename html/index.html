@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PolyMap</title>
+    <link rel="shortcut icon" href="/images/PolyLogo.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="/libs/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href=/libs/swiper/swiper-bundle.min.css>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="pageLogin">
+    <div class="container">
+        <div class="left">
+            <div class="login">Вход</div>
+            <div class="eula">Войдя в аккаунт, вы соглашаетесь с неимоверно долгим пользовательским соглашением </div>
+        </div>
+        <div class="right">
+            <svg class="svg-login" viewBox="0 0 320 300">
+                <defs>
+                    <linearGradient
+                            inkscape:collect="always"
+                            id="linearGradient"
+                            x1="13"
+                            y1="193.49992"
+                            x2="307"
+                            y2="193.49992"
+                            gradientUnits="userSpaceOnUse">
+                        <stop
+                                style="stop-color:#ff00ff;"
+                                offset="0"
+                                id="stop876" />
+                        <stop
+                                style="stop-color:#ff0000;"
+                                offset="1"
+                                id="stop878" />
+                    </linearGradient>
+                </defs>
+                <path class="path-login" d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
+            </svg>
+            <div class="form-login">
+                <span class="close">&times;</span>
+                <label for="email">Email</label>
+                <input class="input-container" type="email" id="email">
+                <label for="password">Пароль</label>
+                <input class="input-container" type="password" id="password">
+                <input class="input-container" type="submit" id="submit" value="Войти">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-registration">
+    <div class="container-registration">
+        <div class="left">
+            <div class="login-registration">Регистрация</div>
+            <div class="eula-registration">Регистрируя аккаунт, вы соглашаетесь с неимоверно долгим пользовательским соглашением </div>
+        </div>
+        <div class="right">
+            <svg class="svg-reg" viewBox="0 0 320 300">
+                <defs>
+                    <linearGradient
+                            inkscape:collect="always"
+                            id="linearGradientReg"
+                            x1="13"
+                            y1="193.49992"
+                            x2="307"
+                            y2="193.49992"
+                            gradientUnits="userSpaceOnUse">
+                        <stop
+                                style="stop-color:#ff00ff;"
+                                offset="0"
+                                id="stop876" />
+                        <stop
+                                style="stop-color:#ff0000;"
+                                offset="1"
+                                id="stop878" />
+                    </linearGradient>
+                </defs>
+                <path class="path-reg" d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
+            </svg>
+            <div class="form-login">
+                <span class="closeReg">&times;</span>
+                <label for="email-registration">Email</label>
+                <input class="input-container" type="email" id="email-registration">
+                <label for="password-registration">Пароль</label>
+                <input class="input-container" type="password" id="password-registration">
+                <label for="password-confirm">Подтвердите пароль</label>
+                <input class="input-container" type="password" id="password-confirm">
+                <input class="input-container" type="submit" id="submit-registration" value="Зарегистрироваться">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <header class = "header">
+        <a href="" class="logo">
+            <img src="/images/PolyLogoPNG.png" alt="Logo">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="PlayCanvas/PC.html" class="nav-link">Карта</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Общая информация</a>
+                    </li>
+                    <li class="nav-item" id="support-btn">
+                        <a href="#" class="nav-link">Поддержка</a>
+                    </li>
+                    <li class="nav-item" id="contacts-btn">
+                        <a href="#" class="nav-link" >Контакты</a>
+                    </li>
+                    <li class="nav-item nav-item--login">
+                        <a href="#" class="nav-link nav-link--login">Войти</a>
+                    </li>
+                    <li class="nav-item nav-item--register">
+                        <a href="#" class="nav-link nav-link--register">Регистрация</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </a>
+    </header>
+
+    <section>
+        <div class="wrapper">
+            <div class="main">
+                <div class="main-text">
+                    <h1 class="main-text__title"> Интерактивная карта
+                        <span id="typed"></span>
+                    </h1>
+
+                    <p class="main-text__description">
+                        Карта Университета, сделанная на WebGL движке PlayCanvas
+                    </p>
+
+                    <a href="PlayCanvas/PC.html" class="main-text__link">
+                        Открыть
+                    </a>
+                </div>
+                <div class="main-img">
+                    <img src="/images/3dMap.png" alt="" class="main-img__image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+     <div class="wrapper">
+         <div class="text">
+             <h2 class="text__title">
+                Принимайте участие в различных мероприятиях
+             </h2>
+             <p class="text__description">
+                 Благодаря интерактивной карте, вы сможете легко соориентироваться, где проходит ивент и принять в нем участие
+             </p>
+             <div class="content-text">
+                 <div class="col-content">
+                     <img src="" alt="">
+                     <div class="content-text__title">
+                        PolyMap - Это
+                     </div>
+                     <div class="content-text__description">
+                         Возможность помочь всем студентам Политеха в продвижении их креативных навыков. Мы поможем отобразить мероприятие, которое организует ВУЗ.
+                     </div>
+
+
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="page-light">
+
+       <section class="showcase">
+           <h2 class="showcase__header">Модели <span>Политеха</span></h2>
+           <div class="showcase__content-wrapper">
+               <div class="showcase__content">
+
+
+                    <div class="showcase-carousel">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide showcase-carousel__item">
+                                <div class="showcase-carousel__image-wrapper">
+                                    <div class="showcase-carousel__image-left">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <div class="showcase-carousel__image-right">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <p>Test1</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide showcase-carousel__item">
+                                <div class="showcase-carousel__image-wrapper">
+                                    <div class="showcase-carousel__image-left">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <div class="showcase-carousel__image-right">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <p>Test2</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide showcase-carousel__item">
+                                <div class="showcase-carousel__image-wrapper">
+                                    <div class="showcase-carousel__image-left">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <div class="showcase-carousel__image-right">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <p>Test3</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide showcase-carousel__item">
+                                <div class="showcase-carousel__image-wrapper">
+                                    <div class="showcase-carousel__image-left">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <div class="showcase-carousel__image-right">
+                                        <div class="showcase-carousel__image" style="background-image: url(/images/pngegg.png)"></div>
+                                    </div>
+                                    <p>Test4</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="showcase-navigation">
+                        <div class="showcase-navigation__prev"></div>
+                        <div class="showcase-navigation__next"></div>
+                    </div>
+               </div>
+           </div>
+           <video src="/videos/smoke-background-optimized.mp4" class="showcase__video" autoplay loop muted></video>
+       </section>
+     </div>
+    <div class="page-gradient">
+        <div class="wrapper">
+            <div class="form">
+                <div class="form-text">
+                    <h3 class="form-text__title">Возникли проблемы?</h3>
+                    <p class="form-text_description">Напишите нам письмо и мы постараемся решить их</p>
+                </div>
+                <div class="form-letter">
+                    <textarea style="resize: none" class = "form-letter__input" placeholder="Опишите свою проблему" required></textarea>
+
+                    <button class="form-letter__btn" type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" id="#contacts">
+        <p class="footer-text">
+           <span> &copy;2022 PolyMap. Все права защищены </span>
+            <span class="email-footer"> Email: <a href="" >PolyMap@gmail.com</a> </span>
+            <span> Телефон: +7 (999)999-99-99 </span>
+        </p>
+
+        <ul class="footer-list">
+            <li class="footer-list__item">
+                <a href="#" target="_blank">
+                    <img src="/images/FaceBook.png" alt="">
+                </a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" target="_blank">
+                    <img src="/images/Instagram.png" alt="">
+                </a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" target="_blank">
+                    <img src="/images/Twitter.png" alt="">
+                </a>
+            </li>
+            <li class="footer-list__item">
+                <a href="#" target="_blank">
+                    <img src="/images/YouTube.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moveTo/1.8.2/moveTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="/libs/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/common.js"></script>
+</body>
+</html>
