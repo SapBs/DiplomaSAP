@@ -3,6 +3,7 @@
 document.addEventListener('DOMContentLoaded', smokeSpeed);
 
 function smokeSpeed() {
+
     const showSlider = new Swiper('.showcase-carousel', {
         loop: true,
         slidesPerView: 3,
@@ -178,6 +179,10 @@ supportBtn.addEventListener('click', moveToCont)
 function moveToCont() {
     moveTo.move(target);
 }
+
+// Scrollbar
+
+
 
 
 // TYPED
