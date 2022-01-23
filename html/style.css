@@ -232,7 +232,8 @@ label {
     border: 0;
 }
 #submit {
-    color: #707075;
+
+    color: #f7f7fa;
     margin-top: 40px;
     transition: color 300ms;
 }
