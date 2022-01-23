@@ -42,7 +42,7 @@ let current = null;
 document.querySelector('#email').addEventListener('focus', function(e) {
     if (current) current.pause();
     current = anime({
-        targets: 'path',
+        targets: '.path-login',
         strokeDashoffset: {
             value: 0,
             duration: 700,
@@ -58,7 +58,7 @@ document.querySelector('#email').addEventListener('focus', function(e) {
 document.querySelector('#password').addEventListener('focus', function(e) {
     if (current) current.pause();
     current = anime({
-        targets: 'path',
+        targets: '.path-login',
         strokeDashoffset: {
             value: -336,
             duration: 700,
@@ -74,7 +74,7 @@ document.querySelector('#password').addEventListener('focus', function(e) {
 document.querySelector('#submit').addEventListener('focus', function(e) {
     if (current) current.pause();
     current = anime({
-        targets: 'path',
+        targets: '.path-login',
         strokeDashoffset: {
             value: -730,
             duration: 700,
@@ -114,7 +114,7 @@ let currentReg = null;
 document.querySelector('#email-registration').addEventListener('focus', function(e) {
     if (currentReg) currentReg.pause();
     currentReg = anime({
-        targets: 'path',
+        targets: '.path-reg',
         strokeDashoffset: {
             value: 0,
             duration: 700,
@@ -130,7 +130,7 @@ document.querySelector('#email-registration').addEventListener('focus', function
 document.querySelector('#password-registration').addEventListener('focus', function(e) {
     if (currentReg) currentReg.pause();
     currentReg = anime({
-        targets: 'path',
+        targets: '.path-reg',
         strokeDashoffset: {
             value: -336,
             duration: 700,
@@ -146,7 +146,7 @@ document.querySelector('#password-registration').addEventListener('focus', funct
 document.querySelector('#password-confirm').addEventListener('focus', function(e) {
     if (currentReg) currentReg.pause();
     currentReg = anime({
-        targets: 'path',
+        targets: '.path-reg',
         strokeDashoffset: {
             value: -672,
             duration: 700,

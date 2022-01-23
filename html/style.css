@@ -164,19 +164,21 @@
         max-height: 350px;
     }
 }
-.svg-login {
-    position: absolute;
-    width: 320px;
-}
 
 .svg-reg {
     position: absolute;
     width: 320px;
 
 }
+.svg-login {
+    position: absolute;
+    width: 320px;
+}
+
+
 .path-login {
     fill: none;
-    stroke: url(#LinearGradient);
+    stroke: url(#linearGradient);
     stroke-width: 4;
     stroke-dasharray: 240 1386;
 }
@@ -382,15 +384,14 @@ body {
     margin-top: -12vh;
     transform-origin: 50% 100%;
     background: white;
-    left: 50%;
-    top: 170%;
+
 }
 
 .content-text {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 700px;
+    height: 100%;
     color: #ffffff;
 }
 
