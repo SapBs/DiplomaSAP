@@ -548,6 +548,10 @@ body {
     margin-left: 32px;
 }
 
+.footer-list__item a:hover {
+    filter: sepia(1) hue-rotate(320deg) saturate(10);
+}
+
 .footer-list__item:first-child {
     margin-left: 0;
 }
