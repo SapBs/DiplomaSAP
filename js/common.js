@@ -153,7 +153,7 @@ document.querySelector('#password-confirm').addEventListener('focus', function(e
             easing: 'easeOutQuart'
         },
         strokeDasharray: {
-            value: '240 1386',
+            value: '220 1386',
             duration: 700,
             easing: 'easeOutQuart'
         }
@@ -230,3 +230,15 @@ function createEl(i) {
 };
 
 for (let i = 0; i < numberOfEls; i++) createEl(i);
+
+
+// BLOCKS
+
+let myAnimation = anime({
+    targets: ['.blue', '.green'],
+    translateX: '13rem',
+    rotate: 180,
+    borderRadius: '8px',
+    duration: 2000,
+    loop: true
+});
