@@ -378,9 +378,9 @@ body {
 .el {
     overflow: hidden;
     position: absolute;
-    opacity: .2;
-    width: 2px;
-    height: 38vh;
+    opacity: .5;
+    width: 1.5px;
+    height: 34vh;
     margin-top: -12vh;
     transform-origin: 50% 100%;
     background: white;
@@ -393,14 +393,18 @@ body {
     align-items: flex-end;
     height: 100%;
     color: #ffffff;
+
 }
 
 .content-text__title {
+
     font-size: 60px;
     text-align: center;
+
 }
 
 .content-text__description {
+
     font-size: 40px;
     text-align: center;
     max-width: 700px;
@@ -408,7 +412,7 @@ body {
 
 
 .text {
-    height: 1000px;
+    height: 750px;
 }
 .main-text__link {
     color: var(--white);
