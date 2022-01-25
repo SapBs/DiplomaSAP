@@ -248,7 +248,7 @@ label {
     --dark: #0D0D2B;
     --white: #FFFFFF;
     /*--blue: #3671E9;*/
-    --blue: rgb(159, 132, 24);
+    --blue: rgb(225, 114, 30);
     --purple: #2B076E;
     --accent: #CC8869;
     --text: #333;
@@ -471,8 +471,12 @@ body {
     background: linear-gradient(180deg, #1d0d49 0%, var(--dark ) 100%);
 }
 
+.logo img {
+    filter: brightness(1100%);
+}
+
 .form {
-    background-color: var(--blue);
+    background-color: rgb(14,11,32);
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
@@ -684,7 +688,7 @@ body {
 
 .showcase-carousel__item p {
     position: absolute;
-    bottom: -100%;
+    bottom: -90%;
     width: 100%;
     font-size: 24px;
     opacity: .5;
