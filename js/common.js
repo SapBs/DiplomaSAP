@@ -171,13 +171,20 @@ const moveTo = new MoveTo({
     container: window
 });
 
+const targetInfo = document.querySelector('.information-container');
 const target = document.getElementById('#contacts');
 contactBtn = document.getElementById('contacts-btn');
 supportBtn = document.getElementById('support-btn')
+const infoBtn = document.getElementById('info-btn');
 contactBtn.addEventListener('click', moveToCont);
 supportBtn.addEventListener('click', moveToCont)
+infoBtn.addEventListener('click', moveToInfo)
 function moveToCont() {
     moveTo.move(target);
+}
+
+function moveToInfo() {
+    moveTo.move(targetInfo);
 }
 
 // Scrollbar

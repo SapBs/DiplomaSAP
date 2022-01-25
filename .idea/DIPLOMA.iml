@@ -17,5 +17,6 @@
     <orderEntry type="library" name="typed.js" level="application" />
     <orderEntry type="library" name="moveTo" level="application" />
     <orderEntry type="library" name="animejs" level="application" />
+    <orderEntry type="library" name="overlayscrollbars" level="application" />
   </component>
 </module>
